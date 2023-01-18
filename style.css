@@ -1,0 +1,57 @@
+body{
+    height: 500px;
+ 
+}
+
+img{
+    height: 250px;
+    width: auto;
+    display: block;
+ }
+
+#page{
+
+border-radius: 5px;
+margin: 5px;
+height: auto;
+border:1px solid black;
+padding:10px;
+
+}
+
+ button{
+   border-radius: 5px;
+   margin:5px;
+   font-weight: bold;
+   color:#4D4D87
+ }
+ #settings{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ h1{
+   text-align: center;
+ }
+
+ .bold{
+   font-weight: bold;
+ }
+
+ .italic{
+   font-style: italic;
+
+ }
+
+ .underline{
+   text-decoration: underline;
+ }
+
+ .grey-text{
+   color:#616161
+ }
+
+ .mono{
+   font-family: monospace;
+ }
+

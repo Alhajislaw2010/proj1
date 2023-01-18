@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+     
+    </head>
+    <body>
+        <h1>Dynamic page</h1>
+       
+     <div id="settings">
+      <div>
+        <button onclick="setColor()">Set Color</button>
+        <input type="value">
+
+
+      </div>
+
+      <div>
+        <button onclick="setLink()">Set link</button>
+        <input type="value" value="pix/basket.png"
+        placeholder="pix/back.jpg"
+        >
+      </div>
+      <div>
+       <button onclick="toggleUnderLine()">UnderLine</button>
+       <button onclick="toggleItalic()">Italic</button>
+       <button onclick="toggleBold()">Bold</button>
+       <button onclick="addMonospace()">Monospace</button>
+       <button onclick="removeFormat()">removeFormat</button>
+
+
+
+
+
+      </div>
+     </div>
+
+     <div id="page">
+        <img id="currentImg" src="/pix/basket.png">
+        <p>It was a bright cold day in April, and the clocks were striking thirteen</p>
+     </div>
+
+     
+
+      
+           
+
+
+            
+           
+        <script src="script.js"></script>
+
+    </body>
+</html>
